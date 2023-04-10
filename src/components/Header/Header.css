@@ -1,0 +1,35 @@
+.container {
+  max-width: 1200;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-container {
+  background-color: pink;
+  background-image: url(https://img.freepik.com/premium-vector/celebration-background-template-with-confetti-and-colorful-ribbons_29865-3935.jpg);
+  background-repeat: repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+  stroke: rgb(69, 11, 11);
+  fill: rgb(69, 11, 11);
+  z-index: 100;
+  vertical-align: text-bottom;
+  margin-right: 20px;
+}
+
+.header-container__text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: rgba(25, 3, 45, 0.822);
+  line-height: 1.4;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0;
+}

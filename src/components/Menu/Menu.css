@@ -1,0 +1,36 @@
+.menu-container {
+  margin-left: auto;
+}
+.menu-container__list {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu-container__btn {
+  background-image: linear-gradient(
+    to right,
+    rgba(81, 13, 13, 0.292) 0%,
+    #f422f76d 51%,
+    rgba(81, 13, 13, 0.178) 100%
+  );
+  margin-left: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(25, 3, 45, 0.822);
+}
+
+.menu-container__btn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}

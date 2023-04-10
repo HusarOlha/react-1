@@ -1,0 +1,36 @@
+.cake-card {
+  background: rgb(97, 150, 223);
+  background: linear-gradient(
+    0deg,
+    rgb(231, 208, 241) 4%,
+    rgba(148, 233, 233, 1) 100%
+  );
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cake-card__img {
+  border-radius: 5px;
+  width: 250px;
+  height: 250px;
+  transition: transform 0.2s ease-out;
+}
+.cake-card__img:hover {
+  transform: scale(1.1);
+}
+
+.cake-card__name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.cake-card__text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 5px 0;
+}

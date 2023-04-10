@@ -1,0 +1,14 @@
+.cake-container__text {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: rgba(28, 9, 45, 0.822);
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+.cake-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}

@@ -1,4 +1,5 @@
 import CakesItem from 'components/Cakes-item/Cakes-item';
+import '../Cakes/Cake.css';
 const Cakes = props => {
   const cakes = [
     {
@@ -45,13 +46,15 @@ const Cakes = props => {
     },
   ];
   return (
-    <section>
-      <h1>Обери свій тортик</h1>
-      <>
-        {cakes.map(cake => {
-          return <CakesItem key={cake.id} {...cake} />;
-        })}
-      </>
+    <section className="cake">
+      <div className="container cake-container">
+        <h1 className="cake-container__text">Обери свій тортик</h1>
+        <div className="cake-card-container">
+          {cakes.map(cake => {
+            return <CakesItem key={cake.id} {...cake} />;
+          })}
+        </div>
+      </div>
     </section>
   );
 };
